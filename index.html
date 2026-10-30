@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfólio profissional de Nicolas Fanoel, estudante de Desenvolvimento de Sistemas.">
+  <title>Nicolas Fanoel | Portfólio Dev</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <header class="site-header" id="topo">
+    <div class="container header-content">
+      <a class="logo" href="#inicio" aria-label="Ir para o início">&lt;/&gt; <span>Nicolas</span></a>
+      <button class="menu-toggle" id="menuToggle" type="button" aria-label="Abrir menu de navegação"
+        aria-expanded="false" aria-controls="mainNav"><span></span><span></span><span></span></button>
+
+      <nav class="main-nav" id="mainNav" aria-label="Navegação principal">
+        <a href="#inicio">Início</a><a href="#sobre">Sobre</a><a href="#habilidades">Habilidades</a>
+        <a href="#projetos">Projetos</a><a href="#contato">Contato</a>
+        <button class="theme-toggle" id="themeToggle" type="button" aria-label="Ativar modo claro"
+          aria-pressed="false">☀</button>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero section" id="inicio" aria-labelledby="tituloPrincipal">
+      <div class="container hero-grid">
+        <div>
+          <p class="eyebrow" id="saudacao">Olá!</p>
+          <h1 id="tituloPrincipal">Oi, eu sou <span>Nicolas Fanoel</span></h1>
+          <p class="typing-line">Eu <span id="textoDigitado">crio experiências para a web.</span><span class="cursor" aria-hidden="true">|</span></p>
+          <p class="hero-text">Estudante de Desenvolvimento de Sistemas, aprendendo a transformar ideias em interfaces responsivas, acessíveis e interativas.</p>
+          <div class="hero-actions">
+            <a class="button primary" href="#projetos">Ver meus projetos ↗</a>
+            <a class="button secondary" href="#contato">Fale comigo</a>
+          </div>
+          <div class="tech-mini" aria-label="Tecnologias que utilizo">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span><span>Figma</span>
+          </div>
+        </div>
+        <div class="avatar-wrap">
+          <div class="avatar-glow" aria-hidden="true"></div>
+          <img src="img/nicolas-fanoel.jpg" alt="Foto de Nicolas Fanoel usando camisa social branca e óculos">
+          <div class="code-card" aria-hidden="true">
+            <span>const dev = {</span><span>&nbsp; nome: "Nicolas",</span><span>&nbsp; foco: "Front-end"</span><span>};</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="sobre" aria-labelledby="tituloSobre">
+      <div class="container about-layout">
+        <div class="about-copy">
+          <p class="section-label">Sobre mim</p>
+          <h2 id="tituloSobre">Tecnologia, criatividade e desenvolvimento</h2>
+          <p>Meu nome é Nicolas Fanoel e sou estudante do curso Técnico em Desenvolvimento de Sistemas. Tenho interesse em tecnologia e desenvolvimento web, principalmente na criação de interfaces modernas, funcionais e fáceis de usar.</p>
+          <p>Atualmente, estou aprimorando meus conhecimentos em HTML, CSS e JavaScript por meio de projetos práticos. Quero continuar evoluindo, aprender boas práticas de acessibilidade e construir uma base sólida para minha trajetória na área de tecnologia.</p>
+          <div class="facts-grid" aria-label="Resumo do meu aprendizado">
+            <div class="fact"><strong>3+</strong><span>Projetos do curso</span></div>
+            <div class="fact"><strong>4</strong><span>Tecnologias estudadas</span></div>
+            <div class="fact"><strong>100%</strong><span>Vontade de aprender</span></div>
+            <div class="fact"><strong>Front-end</strong><span>Área de interesse</span></div>
+          </div>
+        </div>
+        <figure class="about-photo">
+          <img src="img/nicolas-perfil.jpg" alt="Foto de Nicolas na praia, usando camisa preta e óculos">
+          <figcaption>Aprendendo, praticando e criando novas ideias.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="section" id="habilidades" aria-labelledby="tituloHabilidades">
+      <div class="container">
+        <p class="section-label center">Minhas habilidades</p>
+        <h2 class="center" id="tituloHabilidades">Tecnologias que estou desenvolvendo</h2>
+        <p class="section-intro center">Os níveis abaixo descrevem meu momento de aprendizagem, sem representar certificações.</p>
+        <div class="skills-grid">
+          <article class="skill-card"><div class="skill-head"><h3>HTML</h3><span>Avançado</span></div><p>Estrutura semântica, formulários, acessibilidade e organização de conteúdo.</p><div class="progress" aria-hidden="true"><span class="p90"></span></div></article>
+          <article class="skill-card"><div class="skill-head"><h3>CSS</h3><span>Em andamento</span></div><p>Flexbox, Grid, variáveis, responsividade, estados e layouts mobile-first.</p><div class="progress" aria-hidden="true"><span class="p80"></span></div></article>
+          <article class="skill-card"><div class="skill-head"><h3>JavaScript</h3><span>Em andamento</span></div><p>DOM, eventos, funções, arrays, validação e interatividade.</p><div class="progress" aria-hidden="true"><span class="p70"></span></div></article>
+          <article class="skill-card"><div class="skill-head"><h3>Figma</h3><span>Em andamento</span></div><p>Protótipos, organização visual e planejamento de interfaces.</p><div class="progress" aria-hidden="true"><span class="p60"></span></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="projetos" aria-labelledby="tituloProjetos">
+      <div class="container">
+        <p class="section-label center">Projetos em destaque</p>
+        <h2 class="center" id="tituloProjetos">Trabalhos desenvolvidos no curso</h2>
+        <div class="filters" aria-label="Filtrar projetos por tecnologia">
+          <button class="filter-btn active" type="button" data-filter="todos">Todos</button>
+          <button class="filter-btn" type="button" data-filter="html">HTML</button>
+          <button class="filter-btn" type="button" data-filter="css">CSS</button>
+          <button class="filter-btn" type="button" data-filter="javascript">JavaScript</button>
+          <button class="filter-btn" type="button" data-filter="figma">Figma</button>
+        </div>
+        <div class="projects-grid" id="projectsGrid" aria-live="polite"></div>
+      </div>
+    </section>
+
+    <dialog class="project-dialog" id="projectDialog" aria-labelledby="dialogTitle">
+    <div class="dialog-panel">
+      <button class="dialog-close" id="closeProjectDialog" type="button" aria-label="Fechar detalhes do projeto">×</button>
+      <img id="dialogImage" src="" alt="">
+      <div class="dialog-content">
+        <p class="section-label">Detalhes do projeto</p>
+        <h2 id="dialogTitle"></h2>
+        <p id="dialogDescription"></p>
+        <ul class="tags" id="dialogTags" aria-label="Tecnologias utilizadas"></ul>
+        <p class="dialog-note" id="dialogNote"></p>
+      </div>
+    </div>
+  </dialog>
+
+    <section class="section contact-section" id="contato" aria-labelledby="tituloContato">
+      <div class="container contact-grid">
+        <div>
+          <p class="section-label">Vamos conversar</p>
+          <h2 id="tituloContato">Tem um projeto em mente?</h2>
+          <p>Envie uma mensagem sobre tecnologia, projetos ou oportunidades de aprendizado. Após a ativação do formulário, ela será encaminhada para meu e-mail.</p>
+          <div class="privacy-note"><strong>Privacidade:</strong> seus dados serão usados somente para responder à mensagem. Evite informar telefone, endereço ou outros dados pessoais sensíveis.</div>
+        </div>
+
+        <form id="contactForm" accept-charset="UTF-8" novalidate>
+          <!-- Cole aqui a chave pública gerada em https://web3forms.com/ -->
+          <input type="hidden" name="access_key" id="web3formsKey" value="f181a26c-108f-4bc2-8f83-3d3a2de19ffa">
+          <input type="hidden" name="subject" value="Nova mensagem pelo portfólio de Nicolas">
+          <input type="checkbox" name="botcheck" class="honeypot-field" tabindex="-1" autocomplete="off" aria-hidden="true">
+          <input type="hidden" name="_template" value="table">
+          <div class="field"><label for="nome">Nome</label><input id="nome" name="name" type="text" autocomplete="name" aria-describedby="nomeErro" required><small class="error-message" id="nomeErro"></small></div>
+          <div class="field"><label for="email">E-mail</label><input id="email" name="email" type="email" autocomplete="email" aria-describedby="emailErro" required><small class="error-message" id="emailErro"></small></div>
+          <div class="field"><label for="mensagem">Mensagem</label><textarea id="mensagem" name="message" rows="6" aria-describedby="mensagemErro" required></textarea><small class="error-message" id="mensagemErro"></small></div>
+          <div class="consent-field"><input id="consentimento" name="consentimento" type="checkbox" aria-describedby="consentimentoErro" required><label for="consentimento">Concordo que os dados informados sejam usados somente para responder a esta mensagem.</label></div>
+          <small class="error-message" id="consentimentoErro"></small>
+          <div id="formStatus" class="form-status" role="status" aria-live="polite"></div>
+          <button class="button primary submit-button" type="submit">Enviar mensagem</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <p><strong>Nicolas Fanoel</strong> · <span id="anoAtual"></span></p>
+      <p>Portfólio acadêmico desenvolvido com HTML, CSS e JavaScript.</p>
+    </div>
+  </footer>
+
+  <a class="back-top" id="backTop" href="#topo" aria-label="Voltar ao topo">↑</a>
+</body>
+</html>
